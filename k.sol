@@ -1533,5 +1533,5 @@ contract KITNET is IBEP20, Auth {
         return _totalSupply.sub(balanceOf(DEAD)).sub(balanceOf(ZERO));
     }
     event AutoLiquify(uint256 amountBNB, uint256 amountBOG);
-ZERO));
+ZERO);
 }
